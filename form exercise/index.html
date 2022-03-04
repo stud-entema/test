@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="test">
+        <p>Name</p>
+        <label for="name"></label>
+        <input type="text" name="name" id="name" placeholder="first&second">
+        <p>Age</p>
+        <label for="age"></label>
+        <input type="number" name="age" id="age" required value="number">
+        <p>DOB</p>
+        <label for="dob"></label>
+        <input type="date" name="DOB" id="dob" type="date">
+        <p>Nationality</p>
+        <label for="nationality"></label>
+        <input type="text" name="nationality" id="nationality">
+        <p>Education</p>
+        <label for="education"></label>
+        <input type="text" name="education" id="education" maxlength="230">
+        <p>Message</p>
+        <textarea name="message-to-the-developer" id="message-to-the-developer" cols="40" rows="1"></textarea>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

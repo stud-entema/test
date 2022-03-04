@@ -1,0 +1,15 @@
+label{
+    border-color: blueviolet;
+    border-radius: 2px;
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    margin-top: none;
+}
+
+button{
+    margin: auto;
+    border: 267px;
+    border-radius: 40%;
+    border-color: rgb(125, 38, 224);
+}
